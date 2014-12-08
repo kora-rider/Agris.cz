@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Agris.cz</string>
+    <string name="action_settings">Nastavení</string>
+    <string name="about">O aplikaci</string>
+    <string name="share">Sdílej aplikaci!</string>
+</resources>

@@ -1,0 +1,50 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cz.czu.pef.agriscz.SettingsFragment"
+    android:id="@+id/idsettings"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/header_settings"
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/numberOfNews"
+        android:textSize="25sp"
+        />
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nonews"
+        android:entries="@array/array_spinner">
+        </Spinner>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="@string/numberOfflineNews"/>
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nooffline"
+        android:entries="@array/array_spinner">
+        </Spinner>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Uložit nastavení"
+        android:layout_gravity="center"
+        android:onClick="onClicknastav"/>
+
+</LinearLayout>
